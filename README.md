@@ -4,12 +4,37 @@
 
 <br>
 
-[![Coverage](https://img.shields.io/codecov/c/github/jshor/tycho.svg?style=flat-square)](https://codecov.io/gh/jshor/tycho)
-[![Build Status](https://img.shields.io/travis/jshor/tycho.svg?style=flat-square)](https://travis-ci.org/jshor/tycho)
-[![dependency Status](https://img.shields.io/david/jshor/tycho.svg?style=flat-square)](https://david-dm.org/jshor/tycho#info=dependencies)
-[![devDependency Status](https://img.shields.io/david/dev/jshor/tycho.svg?style=flat-square)](https://david-dm.org/jshor/tycho#info=devDependencies)
-[![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-![Version](http://img.shields.io/:version-1.0.1-orange.svg?style=flat-square)
+<p align="center">
+  <a href="https://codecov.io/gh/jshor/tycho">
+    <img src="https://img.shields.io/codecov/c/github/jshor/tycho.svg?style=flat-square"
+         alt="Code coverage">
+  </a>
+
+  <a href="hhttps://travis-ci.org/jshor/tycho">
+    <img src="https://img.shields.io/travis/jshor/tycho.svg?style=flat-square"
+         alt="Build status">
+  </a>
+
+  <a href="https://david-dm.org/jshor/tycho#info=devDependencies">
+    <img src="https://img.shields.io/david/jshor/tycho.svg?style=flat-square"
+         alt="devDependencies Status">
+  </a>
+
+  <a href="https://david-dm.org/jshor/tycho#info=dependencies">
+    <img src="https://img.shields.io/david/jshor/tycho.svg?style=flat-square"
+         alt="Dependency Status">
+  </a>
+
+  <a href="LICENSE.md">
+    <img src="http://img.shields.io/:license-MIT-blue.svg?style=flat-square"
+         alt="License | MIT">
+  </a>
+
+  <a href="https://github.com/jshor/tycho/releases/tag/v1.0.1">
+    <img src="http://img.shields.io/:version-1.0.1-orange.svg?style=flat-square"
+        alt="Version 1.0.1">
+  </a>
+</p>
 
 ## Table of Contents
 

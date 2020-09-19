@@ -1,0 +1,52 @@
+{
+    "name": "Saturn",
+    "albedo": 0.499,
+    "sidereal": 0.4395,
+    "radius": 58232,
+    "mass": 5.6834e+26,
+    "centralMass": 1.989e+30,
+    "axialTilt": 26.73,
+    "inclination": 2.485,
+    "atmosphere": 9931069,
+    "satellites": [
+        "dione",
+        "enceladus",
+        "mimas",
+        "rhea",
+        "tethys",
+        "titan",
+        "iapetus"
+    ],
+    "ephemeris": {
+        "nasaOrbitalCode": "6",
+        "nasaBarycenterCode": "0",
+        "revolutionOrder": "y"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Saturn.jpg"
+        }
+    ],
+    "rings": {
+        "innerRadius": 6630,
+        "outerRadius": 120700,
+        "barycenterTilt": 26.73,
+        "maps": [
+            {
+                "slot": "map",
+                "url": "saturn_rings.png"
+            }
+        ]
+    },
+    "argumentOfPeriapsis": 339.0879545664338,
+    "eccentricity": 0.05407082365984361,
+    "longitudeOfAscendingNode": 113.5979838713757,
+    "semimajor": 1427631630.1829581261,
+    "semiminor": 1425543152.1262598038,
+    "periapses": {
+        "last": 1986104108096.297,
+        "next": 2915851337324.0366
+    },
+    "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. It has only one-eighth the average density of Earth, but with its larger volume Saturn is over 95 times more massive. Saturn is named after the Roman god of agriculture; its astronomical symbol (♄) represents the god's sickle.\n\nSaturn's interior is probably composed of a core of iron–nickel and rock (silicon and oxygen compounds). This core is surrounded by a deep layer of metallic hydrogen, an intermediate layer of liquid hydrogen and liquid helium, and finally a gaseous outer layer. Saturn has a pale yellow hue due to ammonia crystals in its upper atmosphere. Electrical current within the metallic hydrogen layer is thought to give rise to Saturn's planetary magnetic field, which is weaker than Earth's, but has a magnetic moment 580 times that of Earth due to Saturn's larger size. Saturn's magnetic field strength is around one-twentieth of Jupiter's. The outer atmosphere is generally bland and lacking in contrast, although long-lived features can appear. Wind speeds on Saturn can reach 1,800 km/h (1,100 mph), higher than on Jupiter, but not as high as those on Neptune.\n\nThe planet's most famous feature is its prominent ring system that is composed mostly of ice particles, with a smaller amount of rocky debris and dust. At least 62 moons are known to orbit Saturn, of which 53 are officially named. This does not include the hundreds of moonlets in the rings. Titan, Saturn's largest moon, and the second-largest in the Solar System, is larger than the planet Mercury, although less massive, and is the only moon in the Solar System to have a substantial atmosphere.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Saturn)."
+}

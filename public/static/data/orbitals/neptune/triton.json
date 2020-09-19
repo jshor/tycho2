@@ -1,0 +1,31 @@
+{
+    "name": "Triton",
+    "albedo": 0.76,
+    "radius": 1353.4,
+    "mass": 2.14e+24,
+    "centralMass": 1.0243e+26,
+    "axialTilt": 0,
+    "inclination": 156.885,
+    "atmosphere": 4871817,
+    "ephemeris": {
+        "nasaOrbitalCode": "801",
+        "nasaBarycenterCode": "0",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Triton.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 109.4889739758744,
+    "eccentricity": 0.5958657051834922,
+    "longitudeOfAscendingNode": 161.5491913515666,
+    "semimajor": 54.93799545046435,
+    "semiminor": 44.11983028029238,
+    "periapses": {
+        "last": 1509858240000,
+        "next": 1510366020000
+    },
+    "description": "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered. It was discovered on October 10, 1846, by English astronomer William Lassell. It is the only large moon in the Solar System with a retrograde orbit, an orbit in the opposite direction to its planet's rotation. At 2,710 kilometres (1,680 mi) in diameter, it is the seventh-largest moon in the Solar System. Because of its retrograde orbit and composition similar to Pluto's, Triton is thought to have been a dwarf planet captured from the Kuiper belt. Triton has a surface of mostly frozen nitrogen, a mostly water-ice crust, an icy mantle and a substantial core of rock and metal. The core makes up two-thirds of its total mass. Triton has a mean density of 2.061 g/cm3 and is composed of approximately 15–35% water ice.\n\nTriton is one of the few moons in the Solar System known to be geologically active (the others being Jupiter's Io and Saturn's Enceladus). Also, it has the second-biggest ratio of moon-to-planet to Neptune, being only lower than the ratio between Earth and its own Moon. As a consequence, its surface is relatively young with few obvious impact craters, and a complex geological history revealed in intricate cryovolcanic and tectonic terrains. Part of its surface has geysers erupting sublimated nitrogen gas, contributing to a tenuous nitrogen atmosphere less than 1/70,000 the pressure of Earth's atmosphere at sea level.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Triton_(moon))."
+}

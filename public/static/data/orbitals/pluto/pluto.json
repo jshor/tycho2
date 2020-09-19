@@ -1,0 +1,36 @@
+{
+    "name": "Pluto",
+    "albedo": 0.66,
+    "sidereal": 6.38723,
+    "radius": 1189.9,
+    "markdown": "pluto.md",
+    "mass": 1.303e+22,
+    "centralMass": 1.989e+30,
+    "axialTilt": 119.591,
+    "inclination": 17.151394,
+    "atmosphere": 13872777,
+    "satellites": [
+        "charon"
+    ],
+    "ephemeris": {
+        "nasaOrbitalCode": "9",
+        "nasaBarycenterCode": "0",
+        "revolutionOrder": "y"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Pluto.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 113.7723827932027,
+    "eccentricity": 0.2490248088194554,
+    "longitudeOfAscendingNode": 110.3010209840363,
+    "semimajor": 4437000000,
+    "semiminor": 4162326398,
+    "periapses": {
+        "last": 620975940000,
+        "next": 8449136575642.012
+    },
+    "description": "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond Neptune. It was the first Kuiper belt object to be discovered.\n\nPluto was discovered by Clyde Tombaugh in 1930 and was originally considered to be the ninth planet from the Sun. After 1992, its status as a planet was questioned following the discovery of several objects of similar size in the Kuiper belt. In 2005, Eris, a dwarf planet in the scattered disc which is 27% more massive than Pluto, was discovered. This led the International Astronomical Union (IAU) to define the term \"planet\" formally in 2006, during their 26th General Assembly. That definition excluded Pluto and reclassified it as a dwarf planet.\n\nPluto is the largest and second-most-massive known dwarf planet in the Solar System, and the ninth-largest and tenth-most-massive known object directly orbiting the Sun. It is the largest known trans-Neptunian object by volume but is less massive than Eris. Like other Kuiper belt objects, Pluto is primarily made of ice and rock and is relatively small—about one-sixth the mass of the Moon and one-third its volume. It has a moderately eccentric and inclined orbit during which it ranges from 30 to 49 astronomical units or AU (4.4–7.4 billion km) from the Sun. This means that Pluto periodically comes closer to the Sun than Neptune, but a stable orbital resonance with Neptune prevents them from colliding. Light from the Sun takes about 5.5 hours to reach Pluto at its average distance (39.5 AU).\n\nPluto has five known moons: Charon (the largest, with a diameter just over half that of Pluto), Styx, Nix, Kerberos, and Hydra. Pluto and Charon are sometimes considered a binary system because the barycenter of their orbits does not lie within either body.\n\nOn July 14, 2015, the New Horizons spacecraft became the first spacecraft to fly by Pluto. During its brief flyby, New Horizons made detailed measurements and observations of Pluto and its moons. In September 2016, astronomers announced that the reddish-brown cap of the north pole of Charon is composed of tholins, organic macromolecules that may be ingredients for the emergence of life, and produced from methane, nitrogen and other gases released from the atmosphere of Pluto and transferred about 19,000 km (12,000 mi) to the orbiting moon.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Pluto)."
+}

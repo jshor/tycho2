@@ -1,0 +1,32 @@
+{
+    "name": "Mercury",
+    "albedo": 0.142,
+    "sidereal": 58.646,
+    "radius": 2439.7,
+    "mass": 3.3011e+23,
+    "centralMass": 1.989e+30,
+    "axialTilt": 0.034,
+    "inclination": 3.86,
+    "atmosphere": 7829367,
+    "ephemeris": {
+        "nasaOrbitalCode": "1",
+        "nasaBarycenterCode": "0",
+        "revolutionOrder": "y"
+    },
+    "textures": [
+        {
+            "slot": "map",
+            "url": "Mercury.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 25.58643458205566,
+    "eccentricity": 0.2061210422938445,
+    "longitudeOfAscendingNode": 47.91381339232119,
+    "semimajor": 56658909.89571722,
+    "semiminor": 55442244.930762865,
+    "periapses": {
+        "last": 1672564975497.5886,
+        "next": 1885517466742.7034
+    },
+    "description": "Mercury is the smallest and innermost planet in the Solar System. Its orbital period around the Sun of 88 days is the shortest of all the planets in the Solar System. It is named after the Roman deity Mercury, the messenger to the gods.\n\nLike Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, so it can only be seen visually in the morning or the evening sky, and never exceeds 28\u00b0 away from the Sun. Also, like Venus and the Moon, the planet displays the complete range of phases as it moves around its orbit relative to Earth. Seen from Earth, this cycle of phases reoccurs approximately every 116 days, the so-called synodic period. Although Mercury can appear as a bright star-like object when viewed from Earth, its proximity to the Sun often makes it more difficult to see than Venus.\n\nMercury is gravitationally locked with the Sun in a 3:2 spin-orbit resonance, and rotates in a way that is unique in the Solar System. As seen relative to the fixed stars, it rotates on its axis exactly three times for every two revolutions it makes around the Sun. As seen from the Sun, in a frame of reference that rotates with the orbital motion, it appears to rotate only once every two Mercurian years. An observer on Mercury would therefore see only one day every two years.\n\nMercury's axis has the smallest tilt of any of the Solar System's planets (about \u200b1\u204430 degree), and its orbital eccentricity is the largest of all known planets in the Solar System. At aphelion, Mercury is about 1.5 times as far from the Sun as it is at perihelion. Mercury's surface appears heavily cratered and is similar in appearance to the Moon's, indicating that it has been geologically inactive for billions of years. Having almost no atmosphere to retain heat, it has surface temperatures that vary diurnally more than on any other planet in the Solar System, ranging from 100 K (\u2212173 \u00b0C; \u2212280 \u00b0F) at night to 700 K (427 \u00b0C; 800 \u00b0F) during the day across the equatorial regions. The polar regions are constantly below 180 K (\u221293 \u00b0C; \u2212136 \u00b0F). The planet has no known natural satellites.\n\nTwo spacecraft have visited Mercury: Mariner 10 flew by in 1974 and 1975; and MESSENGER, launched in 2004, orbited Mercury over 4,000 times in four years before exhausting its fuel and crashing into the planet's surface on April 30, 2015.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Mercury_(planet))."
+}

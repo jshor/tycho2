@@ -1,0 +1,31 @@
+{
+    "name": "Rhea",
+    "albedo": 0.949,
+    "radius": 763.8,
+    "mass": 2.306518e+21,
+    "centralMass": 5.6834e+26,
+    "axialTilt": 0,
+    "inclination": 0.345,
+    "atmosphere": 4538410,
+    "ephemeris": {
+        "nasaOrbitalCode": "608",
+        "nasaBarycenterCode": "6",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Rhea.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 231.6769465371525,
+    "eccentricity": 0.02816308986985563,
+    "longitudeOfAscendingNode": 138.8781130674562,
+    "semimajor": 3560623.895487782,
+    "semiminor": 3559211.543809575,
+    "periapses": {
+        "last": 1511690018878.6982,
+        "next": 1518543028105.2053
+    },
+    "description": "Rhea (*REE-ə*; Ancient Greek: Ῥέᾱ) is the second-largest moon of Saturn and the ninth-largest moon in the Solar System. It is the second smallest body in the Solar System, after the asteroid and dwarf planet Ceres, for which precise measurements have confirmed a shape consistent with hydrostatic equilibrium. It was discovered in 1672 by Giovanni Domenico Cassini.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Rhea_(moon))."
+}

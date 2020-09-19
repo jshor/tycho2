@@ -1,0 +1,31 @@
+{
+    "name": "Tethys",
+    "albedo": 1.229,
+    "radius": 531.1,
+    "mass": 617449000000000000000,
+    "centralMass": 5.6834e+26,
+    "axialTilt": 0,
+    "inclination": 1.12,
+    "atmosphere": 13087130,
+    "ephemeris": {
+        "nasaOrbitalCode": "603",
+        "nasaBarycenterCode": "6",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Tethys.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 132.1526849373334,
+    "eccentricity": 0.0007546596744776474,
+    "longitudeOfAscendingNode": 170.0960771016055,
+    "semimajor": 294445.4739219323,
+    "semiminor": 294445.39007691917,
+    "periapses": {
+        "last": 1508009034401.5808,
+        "next": 1508111370302.6309
+    },
+    "description": "Tethys (or Saturn III) is a mid-sized moon of Saturn about 1,060 km (660 mi) across. It was discovered by G. D. Cassini in 1684 and is named after the titan Tethys of Greek mythology.\n\nTethys has a low density of 0.98 g/cm3, the lowest of all the major moons in the Solar System, indicating that it is made of water ice with just a small fraction of rock. This is confirmed by the spectroscopy of its surface, which identified water ice as the dominant surface material. A small amount of an unidentified dark material is present as well. The surface of Tethys is very bright, being the second-brightest of the moons of Saturn after Enceladus, and neutral in color.\n\nTethys is heavily cratered and cut by a number of large faults/graben. The largest impact crater, Odysseus, is about 400 km in diameter, whereas the largest graben, Ithaca Chasma, is about 100 km wide and more than 2000 km long. These two largest surface features may be related. A small part of the surface is covered by smooth plains that may be cryovolcanic in origin. Like all other regular moons of Saturn, Tethys formed from the Saturnian sub-nebula—a disk of gas and dust that surrounded Saturn soon after its formation.\n\nTethys has been approached by several space probes including Pioneer 11 (1979), Voyager 1 (1980), Voyager 2 (1981), and multiple times by Cassini since 2004.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Tethys_(moon))."
+}

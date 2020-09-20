@@ -1,0 +1,32 @@
+{
+    "name": "Ganymede",
+    "albedo": 0.43,
+    "radius": 2634.1,
+    "markdown": "ganymeade.md",
+    "mass": 1.4819e+23,
+    "centralMass": 1.898e+27,
+    "axialTilt": 0.33,
+    "inclination": 0.2,
+    "atmosphere": 8355711,
+    "ephemeris": {
+        "nasaOrbitalCode": "503",
+        "nasaBarycenterCode": "5",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Ganymede.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 333.7539728272546,
+    "eccentricity": 0.00225688246608868,
+    "longitudeOfAscendingNode": 340.6864705564284,
+    "semimajor": 1070170.593365441,
+    "semiminor": 1070167.867895131,
+    "periapses": {
+        "last": 1508171885813.0156,
+        "next": 1508795593445.161
+    },
+    "description": "Ganymede (Jupiter III) is the largest and most massive moon of Jupiter and in the Solar System. The ninth largest object in the Solar System, it is the largest without a substantial atmosphere. It has a diameter of 5,268 km (3,273 mi) and is 8% larger than the planet Mercury, although only 45% as massive. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field. It is the third of the Galilean moons, the first group of objects discovered orbiting another planet, and the seventh satellite outward from Jupiter, Ganymede orbits Jupiter in roughly seven days and is in a 1:2:4 orbital resonance with the moons Europa and Io, respectively.\n\nGanymede is composed of approximately equal amounts of silicate rock and water ice. It is a fully differentiated body with an iron-rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined. Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of the satellite. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.\n\nGanymede's magnetic field is probably created by convection within its liquid iron core. The meager magnetic field is buried within Jupiter's much larger magnetic field and would show only as a local perturbation of the field lines. The satellite has a thin oxygen atmosphere that includes O, O2, and possibly O3 (ozone). Atomic hydrogen is a minor atmospheric constituent. Whether the satellite has an ionosphere associated with its atmosphere is unresolved.\n\nGanymede's discovery is credited to Galileo Galilei, who was the first to observe it on January 7, 1610. The satellite's name was soon suggested by astronomer Simon Marius, after the mythological Ganymede, cupbearer of the Greek gods and Zeus's lover. Beginning with Pioneer 10, several spacecraft have explored Ganymede. The Voyager probes refined measurements of its size, while Galileo discovered its underground ocean and magnetic field. The next planned mission to the Jovian system is the European Space Agency's Jupiter Icy Moon Explorer (JUICE), due to launch in 2022. After flybys of all three icy Galilean moons, the probe is planned to enter orbit around Ganymede.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Ganymede_(moon))."
+}

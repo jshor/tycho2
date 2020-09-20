@@ -1,0 +1,31 @@
+{
+    "name": "Io",
+    "albedo": 0.63,
+    "radius": 1821.6,
+    "mass": 8.931938e+22,
+    "centralMass": 1.898e+27,
+    "axialTilt": 0,
+    "inclination": 0.05,
+    "atmosphere": 10521177,
+    "ephemeris": {
+        "nasaOrbitalCode": "501",
+        "nasaBarycenterCode": "5",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Io.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 307.674227707047,
+    "eccentricity": 0.003991401067937321,
+    "longitudeOfAscendingNode": 338.4213288782511,
+    "semimajor": 421535.0399832816,
+    "semiminor": 421531.6821730083,
+    "periapses": {
+        "last": 1507964128150.8074,
+        "next": 1508117075106.2883
+    },
+    "description": "Io (Jupiter I) is the innermost of the four Galilean moons of the planet Jupiter. It is the fourth-largest moon, has the highest density of all the moons, and has the least amount of water of any known astronomical object in the Solar System. It was discovered in 1610 and was named after the mythological character Io, a priestess of Hera who became one of Zeus' lovers.\n\nWith over 400 active volcanoes, Io is the most geologically active object in the Solar System. This extreme geologic activity is the result of tidal heating from friction generated within Io's interior as it is pulled between Jupiter and the other Galilean satellites—Europa, Ganymede and Callisto. Several volcanoes produce plumes of sulfur and sulfur dioxide that climb as high as 500 km (300 mi) above the surface. Io's surface is also dotted with more than 100 mountains that have been uplifted by extensive compression at the base of Io's silicate crust. Some of these peaks are taller than Mount Everest. Unlike most satellites in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron-sulfide core. Most of Io's surface is composed of extensive plains coated with sulfur and sulfur-dioxide frost.\n\nIo's volcanism is responsible for many of its unique features. Its volcanic plumes and lava flows produce large surface changes and paint the surface in various subtle shades of yellow, red, white, black, and green, largely due to allotropes and compounds of sulfur. Numerous extensive lava flows, several more than 500 km (300 mi) in length, also mark the surface. The materials produced by this volcanism make up Io's thin, patchy atmosphere and Jupiter's extensive magnetosphere. Io's volcanic ejecta also produce a large plasma torus around Jupiter.\n\nIo played a significant role in the development of astronomy in the 17th and 18th centuries. It was discovered in January 1610 by Galileo Galilei, along with the other Galilean satellites. This discovery furthered the adoption of the Copernican model of the Solar System, the development of Kepler's laws of motion, and the first measurement of the speed of light. From Earth, Io remained just a point of light until the late 19th and early 20th centuries, when it became possible to resolve its large-scale surface features, such as the dark red polar and bright equatorial regions. In 1979, the two Voyager spacecraft revealed Io to be a geologically active world, with numerous volcanic features, large mountains, and a young surface with no obvious impact craters. The Galileo spacecraft performed several close flybys in the 1990s and early 2000s, obtaining data about Io's interior structure and surface composition. These spacecraft also revealed the relationship between Io and Jupiter's magnetosphere and the existence of a belt of high-energy radiation centered on Io's orbit. Io receives about 3,600 rem (36 Sv) of ionizing radiation per day.\n\nFurther observations have been made by Cassini–Huygens in 2000 and New Horizons in 2007, as well as from Earth-based telescopes and the Hubble Space Telescope.\n\nFrom the surface of Io, Jupiter would subtend an arc of 19.5°, making Jupiter appear 39 times the apparent diameter of our Moon.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Io_(moon))."
+}

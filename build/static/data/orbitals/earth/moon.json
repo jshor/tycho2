@@ -1,0 +1,32 @@
+{
+    "name": "Moon",
+    "albedo": 0.136,
+    "sidereal": 0.99726968,
+    "radius": 1737.1,
+    "mass": 5.97237e+24,
+    "centralMass": 5.97237e+24,
+    "axialTilt": 6.687,
+    "inclination": 5.145,
+    "atmosphere": 10066278,
+    "ephemeris": {
+        "nasaOrbitalCode": "301",
+        "nasaBarycenterCode": "3",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Moon.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 282.5992409518417,
+    "eccentricity": 0.03405532141489297,
+    "longitudeOfAscendingNode": 142.3595722910625,
+    "semimajor": 376126.5103019063,
+    "semiminor": 375908.33786092995,
+    "periapses": {
+        "last": 1509927058416.626,
+        "next": 1512377208118.1555
+    },
+    "description": "The Moon is an astronomical body that orbits planet Earth, being Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits (its primary). Following Jupiter's satellite Io, the Moon is the second-densest satellite among those whose densities are known.\n\nThe Moon is thought to have formed about 4.51 billion years ago, not long after Earth. The most widely accepted explanation is that the Moon formed from the debris left over after a giant impact between Earth and a Mars-sized body called Theia.\n\nThe Moon is in synchronous rotation with Earth, always showing the same face, with its near side marked by dark volcanic maria that fill the spaces between the bright ancient crustal highlands and the prominent impact craters. As seen from the Earth, it is the second-brightest regularly visible celestial object in Earth's sky, after the Sun. Its surface is actually dark, although compared to the night sky it appears very bright, with a reflectance just slightly higher than that of worn asphalt. Its gravitational influence produces the ocean tides, body tides, and the slight lengthening of the day.\n\nThe Moon's average orbital distance at the present time is 384,402 km (238,856 mi), or 1.28 light-seconds. This is about thirty times the diameter of Earth, with its apparent size in the sky almost the same as that of the Sun (due to it being 400x farther and larger), resulting in the Moon covering the Sun nearly precisely in total solar eclipse. This matching of apparent visual size will not continue in the far future, because the Moon's distance from Earth is slowly increasing.\n\nThe Soviet Union's Luna programme was the first to reach the Moon with unmanned spacecraft in 1959; the United States' NASA Apollo program achieved the only manned missions to date, beginning with the first manned lunar orbiting mission by Apollo 8 in 1968, and six manned lunar landings between 1969 and 1972, with the first being Apollo 11. These missions returned lunar rocks which have been used to develop a geological understanding of the Moon's origin, internal structure, and later history. Since the Apollo 17 mission in 1972, the Moon has been visited only by unmanned spacecraft.\n\nWithin human culture, both the Moon's natural prominence in the earthly sky, and its regular cycle of phases as seen from the Earth have provided cultural references and influences for human societies and cultures since time immemorial. Such cultural influences can be found in language, lunar based calendar systems, art, and mythology.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Moon)."
+}

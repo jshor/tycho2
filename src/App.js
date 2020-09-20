@@ -1,56 +1,60 @@
-import React, { useRef, createRef, useImperativeHandle } from 'react'
-import { Vector3 } from 'three'
-import { Canvas, extend, useFrame, useThree } from 'react-three-fiber'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import React, { useRef, useMemo, useCallback, useEffect, createRef, useImperativeHandle } from 'react'
+import { Euler, Vector3, EllipseCurve, Path } from 'three'
+import { Canvas, useFrame, useThree } from 'react-three-fiber'
 import CameraControls from './CameraControls'
+import { TRANSITION_TIME } from './constants'
 import './App.css'
-
-extend({ OrbitControls })
+import { getFocus } from './math/geometry'
 
 const initPosition = 50
 
-const TRANSITION_TIME = 3000
+function getPosition (percentComplete, path) {
+  // const rad = (percentComplete * 360) * (Math.PI / 180)
+  const { x, y } = path.getPoint(percentComplete)
 
-const state = {
-  previousCameraFocus: 'sun',
-  currentCameraFocus: 'sun'
+  return new Vector3(x, y, 0)
 }
 
-function getTime () {
-  return (new Date()).getTime()
-}
 
-function getWorldPosition (obj) {
-  const vector = new Vector3()
+function Ellipse (props) {
+  const update = useCallback(self => {
+    self.setFromPoints(props.geometry.getPoints(50))
+  }, [])
 
-  vector.setFromMatrixPosition(obj.matrixWorld)
-
-  return vector
-}
-
-function getPosition (radius, percentComplete) {
-  const rad = (percentComplete * 360) * (Math.PI / 180)
-
-  return new Vector3(
-    radius * Math.sin(rad),
-    0,
-    radius * Math.cos(rad)
+  return (
+    <line>
+      <bufferGeometry attach="geometry" onUpdate={update} />
+      <lineBasicMaterial attach="material" color="hotpink" />
+    </line>
   )
 }
 
+
 function Orbital (props) {
   const orbital = createRef()
-  const { radius, duration } = props
+  const cameraMarker = createRef() // marks the future camera position when focus changes
+  const { radius, duration, semimajor, semiminor } = props
 
-  let currentTime = getTime()
+  let currentTime = Date.now()
   let endTime = currentTime + duration
   let percent = 0
 
+  const focus = getFocus(semimajor, semiminor)
+  const ellipse = useMemo(() => new EllipseCurve(
+    0,  focus,            // ax, aY
+    semimajor, semiminor,
+    0,  2 * Math.PI,  // aStartAngle, aEndAngle
+    false,            // aClockwise
+    0                 // aRotation
+  ), [])
+  const path = new Path(ellipse.getPoints(50))
+
+
   useFrame(() => {
-    currentTime = getTime()
+    currentTime = Date.now()
     percent = (endTime - currentTime) / duration
 
-    const position = getPosition(radius, percent)
+    const position = getPosition(percent, path)
     const controls = props.controls.current
 
     if (percent <= 0) {
@@ -58,12 +62,11 @@ function Orbital (props) {
       endTime = currentTime + duration
     }
 
-    if (controls.isFocusedOnOrbital(props.id)) {
-      controls.updatePosition(position)
-    }
+    orbital.current.position.copy(position)
 
-    orbital.current.position.x = position.x
-    orbital.current.position.z = position.z
+    if (controls.isFocusedOnOrbital(props.id)) {
+      controls.updatePosition(orbital.current.getWorldPosition())
+    }
   })
 
   const onClick = () => {
@@ -76,31 +79,27 @@ function Orbital (props) {
       percentAtEndOfTransition += 1
     }
 
-    const position = getPosition(radius, percentAtEndOfTransition)
+    const position = getPosition(percentAtEndOfTransition, ellipse)
 
-    controls.setFocus(position, props.id)
+    cameraMarker.current.position.copy(position)
+    controls.setFocus(cameraMarker.current.getWorldPosition(), props.id, props.radius)
   }
 
-  return (
-    <group onClick={onClick} ref={orbital}>
-      <mesh>
-        <sphereGeometry attach="geometry" args={[2, 32, 32]} />
-        <meshNormalMaterial attach="material" />
-      </mesh>
-      {props.children}
-    </group>
-  )
-}
-
-function Controls() {
-  const controls = useRef()
-  const { camera, gl } = useThree()
-
-  useFrame(() => controls.current.update())
+  const rotation = new Euler( 1, 0, 0, 'XYZ' ) // barycentric rotation (relative to ecliptic plane)
 
   return (
-    <group>
-      <orbitControls ref={controls} args={[camera, gl.domElement]} enableDamping dampingFactor={0.1} rotateSpeed={0.5} />
+    <group rotation={rotation}>
+      <Ellipse geometry={ellipse} />
+
+      <group ref={cameraMarker} />
+      <group onClick={onClick} ref={orbital}>
+        {/* <axesHelper args={[100]} /> */}
+        <mesh>
+          <sphereGeometry attach="geometry" args={[props.radius, 32, 32]} />
+          <meshNormalMaterial attach="material" />
+        </mesh>
+        {props.children}
+      </group>
     </group>
   )
 }
@@ -112,19 +111,19 @@ export default function App () {
     <Canvas style={{ background: '#272730' }} camera={{
 
       position: new Vector3(initPosition, initPosition, initPosition)
-    }}>
+    }} gl={{ logarithmicDepthBuffer: true }}>
       <gridHelper args={[100, 5]} />
       <mesh>
         <sphereGeometry attach="geometry" args={[2, 32, 32]} />
         <meshBasicMaterial attach="material" color={0xFFFEEE} />
       </mesh>
       <CameraControls ref={controls} />
-      <Orbital controls={controls} duration={30000} radius={30} id="earth">
-        {/* <Orbital controls={controls} duration={6000} radius={20} id="moon" /> */}
-      </Orbital>
-      <Orbital controls={controls} duration={40000} radius={80} id="venus" />
 
-      <Controls />
+      <Orbital controls={controls} duration={30000} radius={30} radius={2} semimajor={11} semiminor={10} id="earth">
+        {/* <Orbital controls={controls} duration={6000} radius={20} radius={2} id="moon" /> */}
+      </Orbital>
+      <Orbital controls={controls} duration={4000} radius={80} radius={3} semimajor={25} semiminor={23} id="venus" />
+      {/* <Controls /> */}
     </Canvas>
   )
 }

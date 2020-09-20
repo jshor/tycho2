@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,UACE,WAAY,CACZ,UAAW,CACX,SAAU,CACV,QACF,CAEA,OACE,WAAY,CACZ,YACF","file":"main.38f45782.chunk.css","sourcesContent":["html, body {\n  height: 100%;\n  width: 100%;\n  padding: 0;\n  margin: 0;\n}\n\ncanvas {\n  width: 100vw;\n  height: 100vh;\n}\n"]}

@@ -1,0 +1,31 @@
+{
+    "name": "Umbriel",
+    "albedo": 0.26,
+    "radius": 584.7,
+    "mass": 1.172e+21,
+    "centralMass": 8.681e+25,
+    "axialTilt": 0,
+    "inclination": 0.128,
+    "atmosphere": 8421504,
+    "ephemeris": {
+        "nasaOrbitalCode": "702",
+        "nasaBarycenterCode": "7",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Umbriel.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 31.88166875314568,
+    "eccentricity": 0.003387290235028168,
+    "longitudeOfAscendingNode": 167.6873854927646,
+    "semimajor": 265984.7575359356,
+    "semiminor": 265983.2316122295,
+    "periapses": {
+        "last": 1507948254218.924,
+        "next": 1508304564752.7024
+    },
+    "description": "Umbriel is a moon of Uranus discovered on October 24, 1851, by William Lassell. It was discovered at the same time as Ariel and named after a character in Alexander Pope's poem The Rape of the Lock. Umbriel consists mainly of ice with a substantial fraction of rock, and may be differentiated into a rocky core and an icy mantle. The surface is the darkest among Uranian moons, and appears to have been shaped primarily by impacts. However, the presence of canyons suggests early endogenic processes, and the moon may have undergone an early endogenically driven resurfacing event that obliterated its older surface.\n\nCovered by numerous impact craters reaching 210 km (130 mi) in diameter, Umbriel is the second most heavily cratered satellite of Uranus after Oberon. The most prominent surface feature is a ring of bright material on the floor of Wunda crater. This moon, like all moons of Uranus, probably formed from an accretion disk that surrounded the planet just after its formation. The Uranian system has been studied up close only once, by the spacecraft Voyager 2 in January 1986. It took several images of Umbriel, which allowed mapping of about 40% of the moon’s surface.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Umbriel_(moon))."
+}

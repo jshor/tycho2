@@ -1,0 +1,35 @@
+{
+    "name": "Neptune",
+    "albedo": 0.41,
+    "sidereal": 0.6713,
+    "radius": 24622,
+    "mass": 1.0243e+26,
+    "centralMass": 1.989e+30,
+    "axialTilt": 28.32,
+    "inclination": 1.767975,
+    "atmosphere": 4871817,
+    "satellites": [
+        "triton"
+    ],
+    "ephemeris": {
+        "nasaOrbitalCode": "8",
+        "nasaBarycenterCode": "0",
+        "revolutionOrder": "y"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Neptune.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 272.4757294259798,
+    "eccentricity": 0.008755529548321343,
+    "longitudeOfAscendingNode": 131.7827588793458,
+    "semimajor": 4499073979.8195829391,
+    "semiminor": 4498901528.5887889862,
+    "periapses": {
+        "last": 2385097012535.9863,
+        "next": 7579716381992.742
+    },
+    "description": "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. Neptune is 17 times the mass of Earth and is slightly more massive than its near-twin Uranus, which is 15 times the mass of Earth and slightly larger than Neptune. Neptune orbits the Sun once every 164.8 years at an average distance of 30.1 astronomical units (4.50×109 km). It is named after the Roman god of the sea and has the astronomical symbol ♆, a stylised version of the god Neptune's trident.\n\nNeptune is not visible to the unaided eye and is the only planet in the Solar System found by mathematical prediction rather than by empirical observation. Unexpected changes in the orbit of Uranus led Alexis Bouvard to deduce that its orbit was subject to gravitational perturbation by an unknown planet. Neptune was subsequently observed with a telescope on 23 September 1846 by Johann Galle within a degree of the position predicted by Urbain Le Verrier. Its largest moon, Triton, was discovered shortly thereafter, though none of the planet's remaining known 13 moons were located telescopically until the 20th century. The planet's distance from Earth gives it a very small apparent size, making it challenging to study with Earth-based telescopes. Neptune was visited by Voyager 2, when it flew by the planet on 25 August 1989. The advent of the Hubble Space Telescope and large ground-based telescopes with adaptive optics has recently allowed for additional detailed observations from afar.\n\nLike Jupiter and Saturn, Neptune's atmosphere is composed primarily of hydrogen and helium, along with traces of hydrocarbons and possibly nitrogen, but it contains a higher proportion of \"ices\" such as water, ammonia, and methane. However, its interior, like that of Uranus, is primarily composed of ices and rock, which is why Uranus and Neptune are normally considered \"ice giants\" to emphasise this distinction. Traces of methane in the outermost regions in part account for the planet's blue appearance.\n\nIn contrast to the hazy, relatively featureless atmosphere of Uranus, Neptune's atmosphere has active and visible weather patterns. For example, at the time of the Voyager 2 flyby in 1989, the planet's southern hemisphere had a Great Dark Spot comparable to the Great Red Spot on Jupiter. These weather patterns are driven by the strongest sustained winds of any planet in the Solar System, with recorded wind speeds as high as 2,100 kilometres per hour (580 m/s; 1,300 mph). Because of its great distance from the Sun, Neptune's outer atmosphere is one of the coldest places in the Solar System, with temperatures at its cloud tops approaching 55 K (−218 °C). Temperatures at the planet's centre are approximately 5,400 K (5,100 °C). Neptune has a faint and fragmented ring system (labelled \"arcs\"), which was discovered in 1982, then later confirmed by Voyager 2.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Neptune)."
+}

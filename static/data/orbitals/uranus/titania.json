@@ -1,0 +1,31 @@
+{
+    "name": "Titania",
+    "albedo": 0.35,
+    "radius": 788.4,
+    "mass": 3.527e+21,
+    "centralMass": 8.681e+25,
+    "axialTilt": 0,
+    "inclination": 0.34,
+    "atmosphere": 8421504,
+    "ephemeris": {
+        "nasaOrbitalCode": "703",
+        "nasaBarycenterCode": "7",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Titania.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 229.4612718970353,
+    "eccentricity": 0.002427845604961269,
+    "longitudeOfAscendingNode": 167.6230717443308,
+    "semimajor": 436325.1831235358,
+    "semiminor": 436323.8971765822,
+    "periapses": {
+        "last": 1508514225330.399,
+        "next": 1509252004912.0679
+    },
+    "description": "Titania is the largest of the moons of Uranus and the eighth largest moon in the Solar System at a diameter of 1,578 kilometres (981 mi). Discovered by William Herschel in 1787, Titania is named after the queen of the fairies in Shakespeare's A Midsummer Night's Dream. Its orbit lies inside Uranus's magnetosphere.\n\nTitania consists of approximately equal amounts of ice and rock, and is probably differentiated into a rocky core and an icy mantle. A layer of liquid water may be present at the core–mantle boundary. The surface of Titania, which is relatively dark and slightly red in color, appears to have been shaped by both impacts and endogenic processes. It is covered with numerous impact craters reaching up to 326 kilometres (203 mi) in diameter, but is less heavily cratered than Oberon, outermost of the five large moons of Uranus. Titania probably underwent an early endogenic resurfacing event which obliterated its older, heavily cratered surface. Titania's surface is cut by a system of enormous canyons and scarps, the result of the expansion of its interior during the later stages of its evolution. Like all major moons of Uranus, Titania probably formed from an accretion disk which surrounded the planet just after its formation.\n\nInfrared spectroscopy conducted from 2001 to 2005 revealed the presence of water ice as well as frozen carbon dioxide on the surface of Titania, which in turn suggested that the moon may have a tenuous carbon dioxide atmosphere with a surface pressure of about 10 nanopascals (10−13 bar). Measurements during Titania's occultation of a star put an upper limit on the surface pressure of any possible atmosphere at 1–2 mPa (10–20 nbar).\n\nThe Uranian system has been studied up close only once, by the spacecraft Voyager 2 in January 1986. It took several images of Titania, which allowed mapping of about 40% of its surface.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Titania_(moon))."
+}

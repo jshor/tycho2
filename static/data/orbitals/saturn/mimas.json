@@ -1,0 +1,31 @@
+{
+    "name": "Mimas",
+    "albedo": 0.962,
+    "radius": 198.2,
+    "mass": 37493000000000000000,
+    "centralMass": 5.6834e+26,
+    "axialTilt": 0,
+    "inclination": 1.574,
+    "atmosphere": 12632256,
+    "ephemeris": {
+        "nasaOrbitalCode": "601",
+        "nasaBarycenterCode": "6",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Mimas.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 124.2444111634118,
+    "eccentricity": 0.02180387099452891,
+    "longitudeOfAscendingNode": 172.452607865443,
+    "semimajor": 185824.3549837387,
+    "semiminor": 185780.17846672857,
+    "periapses": {
+        "last": 1509307261288.2346,
+        "next": 1510776942059.84
+    },
+    "description": "Mimas is a moon of Saturn which was discovered in 1789 by William Herschel. It is named after Mimas, a son of Gaia in Greek mythology, and is also designated Saturn I.\n\nWith a diameter of 396 kilometres (246 mi) it is the smallest astronomical body that is known to be rounded in shape because of self-gravitation.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Mimas_(moon))."
+}

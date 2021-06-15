@@ -1,0 +1,31 @@
+{
+    "name": "Ariel",
+    "albedo": 0.53,
+    "radius": 578.9,
+    "mass": 1.353e+21,
+    "centralMass": 8.681e+25,
+    "axialTilt": 0,
+    "inclination": 0.26,
+    "atmosphere": 8421504,
+    "ephemeris": {
+        "nasaOrbitalCode": "701",
+        "nasaBarycenterCode": "7",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Ariel.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 155.8639968197608,
+    "eccentricity": 0.0005863695456392988,
+    "longitudeOfAscendingNode": 167.6429700618532,
+    "semimajor": 190915.639431505,
+    "semiminor": 190915.60661031218,
+    "periapses": {
+        "last": 1508091755326.6257,
+        "next": 1508302248799.1406
+    },
+    "description": "Ariel is the fourth-largest of the 27 known moons of Uranus. Ariel orbits and rotates in the equatorial plane of Uranus, which is almost perpendicular to the orbit of Uranus and so has an extreme seasonal cycle.\n\nIt was discovered in October 1851 by William Lassell and named for a character in two different pieces of literature. As of 2017, much of the detailed knowledge of Ariel derives from a single flyby of Uranus performed by the spacecraft Voyager 2 in 1986, which managed to image around 35% of the moon's surface. There are no active plans at present to return to study the moon in more detail, although various concepts such as a Uranus orbiter and probe have been proposed from time to time.\n\nAfter Miranda, Ariel is the second-smallest of Uranus' five major rounded satellites and the second-closest to its planet. Among the smallest of the Solar System's 19 known spherical moons (it ranks 14th among them in diameter), it is believed to be composed of roughly equal parts ice and rocky material. Its mass is approximately equal in magnitude to Earth's hydrosphere.\n\nLike all of Uranus' moons, Ariel probably formed from an accretion disc that surrounded the planet shortly after its formation, and, like other large moons, it is likely differentiated, with an inner core of rock surrounded by a mantle of ice. Ariel has a complex surface consisting of extensive cratered terrain cross-cut by a system of scarps, canyons, and ridges. The surface shows signs of more recent geological activity than other Uranian moons, most likely due to tidal heating.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Ariel_(moon))."
+}

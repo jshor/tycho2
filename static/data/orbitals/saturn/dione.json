@@ -1,0 +1,31 @@
+{
+    "name": "Dione",
+    "albedo": 0.998,
+    "radius": 561.4,
+    "mass": 1.095452e+21,
+    "centralMass": 5.6834e+26,
+    "axialTilt": 0,
+    "inclination": 0.019,
+    "atmosphere": 16634447,
+    "ephemeris": {
+        "nasaOrbitalCode": "604",
+        "nasaBarycenterCode": "6",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Dione.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 334.6730502975491,
+    "eccentricity": 0.0009982178776281251,
+    "longitudeOfAscendingNode": 169.5765184466714,
+    "semimajor": 378043.2619172129,
+    "semiminor": 378043.0735686541,
+    "periapses": {
+        "last": 1508029524144.557,
+        "next": 1508255338549.7422
+    },
+    "description": "Dione (*dy-OH-nee*; Greek: Διώνη) is a moon of Saturn. It was discovered by Italian astronomer Giovanni Domenico Cassini in 1684. It is named after the Titaness Dione of Greek mythology. It is also designated Saturn IV.\n\n\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Dione_(moon))."
+}

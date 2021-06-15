@@ -1,0 +1,31 @@
+{
+    "name": "Iapetus",
+    "albedo": 0.25,
+    "radius": 734.5,
+    "mass": 1.805635e+21,
+    "centralMass": 5.6834e+26,
+    "axialTilt": 0,
+    "inclination": 15.47,
+    "atmosphere": 12632256,
+    "ephemeris": {
+        "nasaOrbitalCode": "608",
+        "nasaBarycenterCode": "6",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Iapetus.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 2.317682317771272E+02,
+    "eccentricity": 2.953719152844289E-02,
+    "longitudeOfAscendingNode": 1.391084672763423E+02,
+    "semimajor": 3560820,
+    "semiminor": 3559266,
+    "periapses": {
+        "last": 1395164760000,
+        "next": 1402018440000
+    },
+    "description": "Iapetus (Greek: Ιαπετός), or occasionally Japetus, is the third-largest natural satellite of Saturn, eleventh-largest in the Solar System, and the largest body in the Solar System known not to be in hydrostatic equilibrium. Iapetus is best known for its dramatic \"two-tone\" coloration. Discoveries by the Cassini mission in 2007 revealed several other unusual features, such as a massive equatorial ridge running three-quarters of the way around the moon.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Iapetus_(moon))."
+}

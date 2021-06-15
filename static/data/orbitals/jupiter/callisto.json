@@ -1,0 +1,32 @@
+{
+    "name": "Callisto",
+    "albedo": 0.17,
+    "radius": 2410.3,
+    "markdown": "callisto.md",
+    "mass": 1.075938e+23,
+    "centralMass": 1.898e+27,
+    "axialTilt": 0,
+    "inclination": 2.017,
+    "atmosphere": 4601634,
+    "ephemeris": {
+        "nasaOrbitalCode": "504",
+        "nasaBarycenterCode": "5",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Callisto.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 26.9933064046153,
+    "eccentricity": 0.007305503344032214,
+    "longitudeOfAscendingNode": 337.1328782218236,
+    "semimajor": 1882645.771907671,
+    "semiminor": 1882595.5324780496,
+    "periapses": {
+        "last": 1508781732983.789,
+        "next": 1510229784180.62
+    },
+    "description": "Callisto  (Jupiter IV) is the second-largest moon of Jupiter, after Ganymede. It is the third-largest moon in the Solar System after Ganymede and Saturn's largest moon Titan, and the largest object in the Solar System not to be properly differentiated. Callisto was discovered in 1610 by Galileo Galilei. At 4821 km in diameter, Callisto has about 99% the diameter of the planet Mercury but only about a third of its mass. It is the fourth Galilean moon of Jupiter by distance, with an orbital radius of about 1883000 km. It is not in an orbital resonance like the three other Galilean satellites—Io, Europa, and Ganymede—and is thus not appreciably tidally heated. Callisto's rotation is tidally locked to its orbit around Jupiter, so that the same hemisphere always faces inward; Jupiter appears to stand nearly still in Callisto's sky. It is less affected by Jupiter's magnetosphere than the other inner satellites because of its more remote orbit, located just outside Jupiter's main radiation belt.\n\nCallisto is composed of approximately equal amounts of rock and ices, with a density of about 1.83 g/cm3, the lowest density and surface gravity of Jupiter's major moons. Compounds detected spectroscopically on the surface include water ice, carbon dioxide, silicates, and organic compounds. Investigation by the Galileo spacecraft revealed that Callisto may have a small silicate core and possibly a subsurface ocean of liquid water at depths greater than 100 km.\n\nThe surface of Callisto is the oldest and most heavily cratered in the Solar System. Its surface is completely covered with impact craters. It does not show any signatures of subsurface processes such as plate tectonics or volcanism, with no signs that geological activity in general has ever occurred, and is thought to have evolved predominantly under the influence of impacts. Prominent surface features include multi-ring structures, variously shaped impact craters, and chains of craters (catenae) and associated scarps, ridges and deposits. At a small scale, the surface is varied and made up of small, sparkly frost deposits at the tips of high spots, surrounded by a low-lying, smooth blanket of dark material. This is thought to result from the sublimation-driven degradation of small landforms, which is supported by the general deficit of small impact craters and the presence of numerous small knobs, considered to be their remnants. The absolute ages of the landforms are not known.\n\nCallisto is surrounded by an extremely thin atmosphere composed of carbon dioxide and probably molecular oxygen, as well as by a rather intense ionosphere. Callisto is thought to have formed by slow accretion from the disk of the gas and dust that surrounded Jupiter after its formation. Callisto's gradual accretion and the lack of tidal heating meant that not enough heat was available for rapid differentiation. The slow convection in the interior of Callisto, which commenced soon after formation, led to partial differentiation and possibly to the formation of a subsurface ocean at a depth of 100–150 km and a small, rocky core.\n\nThe likely presence of an ocean within Callisto leaves open the possibility that it could harbor life. However, conditions are thought to be less favorable than on nearby Europa. Various space probes from Pioneers 10 and 11 to Galileo and Cassini have studied Callisto. Because of its low radiation levels, Callisto has long been considered the most suitable place for a human base for future exploration of the Jovian system.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Callisto_(moon))."
+}

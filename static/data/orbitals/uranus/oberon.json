@@ -1,0 +1,31 @@
+{
+    "name": "Oberon",
+    "albedo": 0.31,
+    "radius": 761.4,
+    "mass": 3.014e+21,
+    "centralMass": 8.681e+25,
+    "axialTilt": 0,
+    "inclination": 0.058,
+    "atmosphere": 8421504,
+    "ephemeris": {
+        "nasaOrbitalCode": "704",
+        "nasaBarycenterCode": "7",
+        "revolutionOrder": "d"
+    },
+    "maps": [
+        {
+            "slot": "map",
+            "url": "Oberon.jpg"
+        }
+    ],
+    "argumentOfPeriapsis": 164.9351033170295,
+    "eccentricity": 0.0005573604132157858,
+    "longitudeOfAscendingNode": 167.7263622840152,
+    "semimajor": 583450.7259606287,
+    "semiminor": 583450.6353359538,
+    "periapses": {
+        "last": 1507979183564.7405,
+        "next": 1509333318483.4912
+    },
+    "description": "Oberon, also designated Uranus IV, is the outermost major moon of the planet Uranus. It is the second-largest and second most massive of the Uranian moons, and the ninth most massive moon in the Solar System. Discovered by William Herschel in 1787, Oberon is named after the mythical king of the fairies who appears as a character in Shakespeare's A Midsummer Night's Dream. Its orbit lies partially outside Uranus's magnetosphere.\n\nIt is likely that Oberon formed from the accretion disk that surrounded Uranus just after the planet's formation. The moon consists of approximately equal amounts of ice and rock, and is probably differentiated into a rocky core and an icy mantle. A layer of liquid water may be present at the boundary between the mantle and the core. The surface of Oberon, which is dark and slightly red in color, appears to have been primarily shaped by asteroid and comet impacts. It is covered by numerous impact craters reaching 210 km in diameter. Oberon possesses a system of chasmata (graben or scarps) formed during crustal extension as a result of the expansion of its interior during its early evolution.\n\nThe Uranian system has been studied up close only once: the spacecraft Voyager 2 took several images of Oberon in January 1986, allowing 40% of the moon's surface to be mapped.\n\nExcerpt via [Wikipedia](https://en.wikipedia.org/wiki/Oberon_(moon))."
+}

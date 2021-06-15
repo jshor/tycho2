@@ -4,16 +4,24 @@
 
 <br>
 
-[![Coverage](https://img.shields.io/codecov/c/github/jshor/tycho.svg?style=flat-square)](https://codecov.io/gh/jshor/tycho)
-[![Build Status](https://img.shields.io/travis/jshor/tycho.svg?style=flat-square)](https://travis-ci.org/jshor/tycho)
-[![dependency Status](https://img.shields.io/david/jshor/tycho.svg?style=flat-square)](https://david-dm.org/jshor/tycho#info=dependencies)
-[![devDependency Status](https://img.shields.io/david/dev/jshor/tycho.svg?style=flat-square)](https://david-dm.org/jshor/tycho#info=devDependencies)
-[![License](http://img.shields.io/:license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-![Version](http://img.shields.io/:version-1.0.1-orange.svg?style=flat-square)
+<p align="center">
+  <a href="https://codecov.io/gh/jshor/tycho"><img
+    src="https://img.shields.io/codecov/c/github/jshor/tycho.svg?style=for-the-badge"
+    alt="Code coverage"
+  /></a> <a href="https://github.com/jshor/tycho/actions?query=workflow%3A%22Build+and+deploy%22"><img
+    src="https://img.shields.io/github/workflow/status/jshor/tycho/Build%20and%20deploy?style=for-the-badge"
+    alt="Build status"
+  /></a> <a href="LICENSE.md"><img src="https://img.shields.io/:license-MIT-blue.svg?style=for-the-badge"
+    alt="License | MIT"
+  /></a>
+</p>
+
+## About This Project
+
+This is a real-time, WebGL-based, 3D visualization of our Solar System. It's a complete re-write of the [original Tycho.io](https://github.com/jshor/tycho.io) project. Check out the full experience at **[tycho.io](https://tycho.io)**!
 
 ## Table of Contents
 
-- [About This Project](#about-this-project)
 - [Running the app](#running-the-app)
 - [Development](#development)
   - [Package Management](#package-management)
@@ -39,10 +47,6 @@
   - [yarn ephemeris](#yarn-ephemeris)
 - [Supported Language Features and Polyfills](#supported-language-features-and-polyfills)
 - [Credits](#credits)
-
-## About This Project
-
-This is a real-time, WebGL-based, 3D visualization of our Solar System. It's a complete re-write of the [original Tycho.io](https://github.com/jshor/tycho.io) project. Check out the full experience at [tycho.io](https://tycho.io)!
 
 ## Running the app
 
